@@ -1,12 +1,31 @@
+html{
+  margin: 0;
+  height: 100%;
+}
+
+h1 {
+  margin: 2vh 0;
+}
+
+select {
+  padding: 0.5vw;
+  margin: 0.5vw;
+}
+
 header, main {
   width: 90%;
   margin: 0 auto;
+  text-align: center;
+}
+
+main{
+  display: flex;
+  flex-wrap: wrap;
 }
 
 main div {
-  float: left;
   width: 23%;
-  min-height: 80vh;
+  min-height: 50vh;
   max-height: auto;
   margin: 1.5vh 0.5vw;
   overflow: hidden;
@@ -14,14 +33,29 @@ main div {
   padding: 1vw;
 }
 
+div h2 {
+  margin-bottom: 1vh;
+}
+
 div img {
   max-height: 80%;
   max-width: 80%;
+  padding: 2vh;
 }
 
 footer {
-  float: none;
   clear: both;
-  width: 90%;
+  width: 100%;
   text-align: center;
+  bottom: 0px;
+  height: 100%;
+}
+
+.flex-container{
+  height: 100%;
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-between;
+  flex-direction: row;
 }

@@ -57,3 +57,47 @@ Actual time needed to complete: 1 hour
 ### Reflections and Comments
 * Consider including the answers to your daily journal and submission questions here
 * This is also a good place to reflect on the tools and resources used and learned
+
+
+
+# LAB - 3
+
+### Feature 1: Pagination
+
+Estimate of time needed to complete: ______
+
+Start time: ______
+
+Finish time: __________
+
+Actual time needed to complete: ________
+
+### Feature 2: Templating
+
+Estimate of time needed to complete: ________
+
+Start time: ________
+
+Finish time: ________
+
+Actual time needed to complete: ________
+
+### Feature 3: Styling with Flexbox
+
+Estimate of time needed to complete: ________
+
+Start time: ________
+
+Finish time: ________
+
+Actual time needed to complete: ________
+
+### Feature 4: Sort the images
+
+Estimate of time needed to complete: ________
+
+Start time: ________
+
+Finish time: ________
+
+Actual time needed to complete: ________

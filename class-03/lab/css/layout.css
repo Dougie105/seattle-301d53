@@ -23,6 +23,7 @@ header {
 .radioContainer {
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
 }
 
 .nav label, .nav input {
@@ -53,7 +54,7 @@ header, main {
 }
 
 main div {
-  width: 23%;
+  width: 25%;
   margin: 1.5vh 0.5vw;
   overflow: hidden;
   padding: 1vw;
@@ -96,6 +97,8 @@ footer {
 }
 
 button {
+
   margin: 0.25vw 0.25vh;
   padding: 0.5vh;
+
 }

@@ -1,19 +1,19 @@
 body {
   background: rgb(2,0,36);
-  background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  background: linear-gradient(0deg, rgb(78, 74, 151) 0%, rgb(58, 93, 139) 35%, rgb(151, 136, 153) 100%);
 }
 
 h1 {
-  font-family: 'Faster One', cursive;
+  font-family: 'Amatic SC', fantasy;
   font-size: 5vw;
-  background: -webkit-linear-gradient(rgba(9,9,121,1) 30%, rgba(0,212,255,1));
+  background: -webkit-linear-gradient(rgb(0, 0, 0) 30%, rgb(116, 69, 122));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-color: white;
 }
 
 select {
-  background: linear-gradient(white, green);
+  background: linear-gradient(white, rgb(116, 69, 122));
   color: darkblue;
   font-size: 1em;
   text-align: center;
@@ -22,14 +22,15 @@ select {
 main div {
   background: rgb(2,0,36);
   /* THANK YOU: https://cssgradient.io/ */
-  background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  background: radial-gradient(circle, rgb(255, 255, 255) 0%, rgb(134, 115, 149) 35%, rgb(116, 69, 122) 100%);
   color: white;
   border: 0.5vw solid silver;
+  border-radius: 10%;
 }
 
 .nav label, .nav input {
   font-weight: bold;
-  color: darkblue;
+  color: purple;
 }
 
 div h2 {
@@ -41,6 +42,15 @@ div img {
 }
 
 button {
-  background: linear-gradient(white, green);
+  background: linear-gradient(white, rgb(116, 69, 122));
   color: darkblue;
+  border: 1px solid purple;
+  border-radius: 10%;
+  width: 100px;
+  height: 30px;
+}
+
+.flexButton{
+  display: flex;
+  justify-content: space-around;
 }

@@ -1,0 +1,56 @@
+body {
+  background: rgb(2,0,36);
+  background: linear-gradient(0deg, rgb(78, 74, 151) 0%, rgb(58, 93, 139) 35%, rgb(151, 136, 153) 100%);
+}
+
+h1 {
+  font-family: 'Amatic SC', fantasy;
+  font-size: 5vw;
+  background: -webkit-linear-gradient(rgb(0, 0, 0) 30%, rgb(116, 69, 122));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-color: white;
+}
+
+select {
+  background: linear-gradient(white, rgb(116, 69, 122));
+  color: darkblue;
+  font-size: 1em;
+  text-align: center;
+}
+
+main div {
+  background: rgb(2,0,36);
+  /* THANK YOU: https://cssgradient.io/ */
+  background: radial-gradient(circle, rgb(255, 255, 255) 0%, rgb(134, 115, 149) 35%, rgb(116, 69, 122) 100%);
+  color: white;
+  border: 0.5vw solid silver;
+  border-radius: 10%;
+}
+
+.nav label, .nav input {
+  font-weight: bold;
+  color: purple;
+}
+
+div h2 {
+  font-size: 1.5em;
+}
+
+div img {
+  background-color: white;
+}
+
+button {
+  background: linear-gradient(white, rgb(116, 69, 122));
+  color: darkblue;
+  border: 1px solid purple;
+  border-radius: 10%;
+  width: 100px;
+  height: 30px;
+}
+
+.flexButton{
+  display: flex;
+  justify-content: space-around;
+}

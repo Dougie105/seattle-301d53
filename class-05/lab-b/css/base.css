@@ -1,0 +1,55 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  text-align: center;
+  position: relative;
+  top: 45%;
+}
+
+.a-dDiv {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+header {
+  height: 75px;
+}
+
+section, article, header, footer {
+  border: 1px solid #000;
+}
+
+main #sidebar {
+  height: 150px;
+}
+
+.featured, .featured1 {
+  height: 125px;
+}
+
+main .e-hArt {
+  display: flex;
+  flex-wrap: wrap;
+  border: none;
+}
+
+main .e-hArt article {
+  height: 250px;
+  width: 240px;
+}
+
+footer {
+  height: 80px;
+}

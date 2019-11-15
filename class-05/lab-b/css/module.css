@@ -1,0 +1,26 @@
+/* MOBILE COLORS */
+  * {
+background-color: lightblue;
+}
+body{
+  background-color: white;
+}
+
+/* TABLET */
+@media (min-width: 768px) and (max-width: 959px) {
+  * {
+background-color: lightgreen
+  }
+  body{
+    background-color: white;
+  }
+}
+
+@media (min-width: 960px) {
+  * {
+background-color: lightsalmon
+  }
+  body{
+    background-color: white;
+  }
+}
